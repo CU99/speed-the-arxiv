@@ -31,9 +31,17 @@ and_or: "+OR+"
 and_or_keywords: "+OR+"
 
 keys:
+<<<<<<< Updated upstream
     # if you do not want to specify some keys, leave the list empty []
     sections: [math.NA, cs.LG, cs.CC, cs.CG, quant-ph]
     keyauthors: [coles, babbush, cirac]
     keywords: [nisq, adiabatic]
+=======
+    # if you do not want to specify some keys, put [00]
+    # DO NOT leave the brackets blank []
+    sections: [math.AT, math.NA, math.CO, cs.LG, cs.CC, cs.CG, quant-ph]
+    keyauthors: [coles,babbush,schuld,cerezo,larocca,rudolph,holmes]
+    keywords: [nisq,quantum machine learning,topological data analysis,quantum circuit expressibility,quantum circuit expressivity,geometric quantum machine learning,unitary evolution,quantum subspace expansion,quantum feature map,quantum encoding,topological data analysis,quantum convolutional neural networks,quantum signal processing,bqp problems]
+>>>>>>> Stashed changes
 
 # additional keys: vqa, encoding
